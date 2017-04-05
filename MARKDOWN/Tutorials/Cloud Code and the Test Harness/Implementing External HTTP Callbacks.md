@@ -18,7 +18,7 @@ To create a script to handle the request, from the Cloud Code page, select the *
 
 ## The Callback URL
 
-*https: //{stage}.gamesparks.net/callback/{apiKey}/{serverSecret}/{playerId}*
+*https://{stage}.gamesparks.net/callback/{apiKey}/{serverSecret}/{playerId}*
 
   * *stage* : "preview" or "service" (depending on whether you are accessing the live servers or not).
   * *apiKey* : The API Key of you game.
@@ -29,7 +29,7 @@ To create a script to handle the request, from the Cloud Code page, select the *
 
 For a *GET* request, you can add parameters to the query string that are passed to your script. For example:
 
-*https: //{stage}.gamesparks.net/callback/{apiKey}/{serverSecret}/{playerId}?attr1=abc&attr2=bcd&attr2=cde*
+*https://{stage}.gamesparks.net/callback/{apiKey}/{serverSecret}/{playerId}?attr1=abc&attr2=bcd&attr2=cde*
 
 With this URL, the following code can be used to access these parameters:
 
